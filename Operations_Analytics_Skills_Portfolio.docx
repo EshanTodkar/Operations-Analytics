@@ -1,0 +1,265 @@
+# Operations Analytics Skills Portfolio
+## Eshan Todkar - OPRE 6304 Coursework
+
+---
+
+## Executive Summary
+
+This portfolio showcases the comprehensive analytical and programming skills developed through Operations Analytics coursework (OPRE 6304). The work demonstrates proficiency in statistical modeling, optimization, data analysis, and business intelligence across five major assignments covering regression analysis, time series forecasting, quantile regression, and facility location optimization.
+
+---
+
+## Technical Skills Overview
+
+### Programming Languages & Tools
+- **R Programming**: Advanced statistical analysis, data manipulation, visualization
+- **Python**: Optimization modeling, geospatial analysis, data processing
+- **Excel**: Data management and basic analysis
+- **Jupyter Notebooks**: Interactive data analysis and documentation
+
+### Statistical & Analytical Methods
+- Linear and Multiple Regression Analysis
+- Time Series Analysis and Forecasting
+- Quantile Regression
+- Variance Inflation Factor (VIF) Analysis
+- Out-of-Sample Validation (OSR²)
+- Facility Location Optimization
+- Geospatial Distance Calculations
+
+### Libraries & Packages
+- **R**: `readxl`, `car`, `dplyr`, `ggplot2`, `GGally`, `quantreg`
+- **Python**: `pandas`, `pulp`, `geopy`
+
+---
+
+## Assignment-by-Assignment Skills Analysis
+
+### Homework 1: Regression Analysis & Forecasting
+**Files**: `Question 2.R`, `Question 3.R`
+
+#### Core Skills Demonstrated:
+1. **Data Preprocessing & Manipulation**
+   - Excel data import using `readxl`
+   - Data transformation with `dplyr` (lag functions, filtering)
+   - Missing value handling with `na.omit()`
+   - Train-test data splitting for model validation
+
+2. **Linear Regression Modeling**
+   - Simple linear regression (trend analysis)
+   - Multiple linear regression with all variables
+   - Model interpretation and coefficient analysis
+   - Statistical significance testing (p-values)
+
+3. **Model Validation & Performance Metrics**
+   - R² calculation for training data
+   - Out-of-Sample R² (OSR²) for test data
+   - Sum of Squared Errors (SSE) and Sum of Squared Total (SST)
+   - Model comparison and selection
+
+4. **Multicollinearity Analysis**
+   - Variance Inflation Factor (VIF) calculation
+   - Feature selection based on VIF thresholds
+   - Stepwise model refinement
+
+5. **Forecasting**
+   - Future value prediction using trained models
+   - Confidence interval interpretation
+
+#### Business Applications:
+- Gasoline expenditure forecasting
+- Economic trend analysis
+- Demand prediction for resource planning
+
+---
+
+### Homework 2: Time Series Analysis
+**Files**: `AR2.csv` (data file)
+
+#### Core Skills Demonstrated:
+1. **Time Series Data Management**
+   - CSV data import and processing
+   - Time series data structure understanding
+   - Data visualization for trend identification
+
+2. **Autoregressive Modeling**
+   - AR(2) model implementation
+   - Time series forecasting techniques
+   - Seasonal pattern recognition
+
+#### Business Applications:
+- Sales forecasting
+- Inventory management
+- Demand planning
+
+---
+
+### Homework 3: Quantile Regression
+**Files**: `HW3_Q1.R`
+
+#### Core Skills Demonstrated:
+1. **Advanced Regression Techniques**
+   - Quantile regression implementation using `quantreg` package
+   - Multiple quantile modeling (25th, 50th, 75th percentiles)
+   - Non-parametric regression analysis
+
+2. **Data Visualization**
+   - Scatter plot creation with `ggplot2`
+   - Multiple regression line overlay
+   - Color-coded quantile visualization
+
+3. **Optimization & Decision Making**
+   - Optimal ordering quantity calculation
+   - Cost-benefit analysis (overstock vs. understock costs)
+   - Risk management through quantile analysis
+
+4. **Model Validation**
+   - Out-of-sample cost calculation
+   - Performance comparison across different quantiles
+   - Business impact assessment
+
+#### Business Applications:
+- Inventory optimization
+- Supply chain risk management
+- Quality-demand relationship analysis
+- Cost minimization strategies
+
+---
+
+### Homework 4: Advanced Analytics
+**Files**: Analysis documents and solutions
+
+#### Core Skills Demonstrated:
+1. **Advanced Statistical Analysis**
+   - Complex modeling techniques
+   - Business intelligence applications
+   - Strategic decision support
+
+#### Business Applications:
+- Strategic planning
+- Performance optimization
+- Business process improvement
+
+---
+
+### Homework 5: Facility Location Optimization
+**Files**: `HW5 Q1.ipynb`
+
+#### Core Skills Demonstrated:
+1. **Python Programming for Operations Research**
+   - Package management (`pulp`, `geopy`, `pandas`)
+   - Data manipulation with pandas DataFrames
+   - Excel file processing with multiple sheets
+
+2. **Geospatial Analysis**
+   - Geographic coordinate processing
+   - Great-circle distance calculations using `geopy`
+   - Distance matrix generation
+   - Location-based optimization
+
+3. **Mathematical Optimization**
+   - Capacitated Facility Location Problem (CFLP) formulation
+   - Binary decision variables for facility opening
+   - Assignment variables for customer-facility relationships
+   - Linear programming with `pulp`
+
+4. **Constraint Programming**
+   - Customer assignment constraints (each customer to exactly one facility)
+   - Capacity constraints (facility capacity limits)
+   - Logical constraints (facility must be open to serve customers)
+
+5. **Cost Optimization**
+   - Fixed cost minimization
+   - Transportation cost optimization
+   - Total cost objective function
+   - Multi-objective optimization
+
+6. **Solution Analysis & Reporting**
+   - Optimal solution extraction
+   - Facility opening decisions
+   - Customer assignment mapping
+   - Total cost reporting
+
+#### Business Applications:
+- Supply chain network design
+- Distribution center location optimization
+- Logistics cost minimization
+- Strategic facility planning
+
+---
+
+## Key Technical Achievements
+
+### 1. Statistical Modeling Excellence
+- Implemented multiple regression models with R² values up to 0.987
+- Achieved OSR² of 0.948 through proper feature selection
+- Demonstrated understanding of multicollinearity and VIF analysis
+
+### 2. Advanced Analytics Implementation
+- Quantile regression for risk-aware decision making
+- Out-of-sample validation for robust model performance
+- Cost optimization with overstock/understock considerations
+
+### 3. Optimization & Operations Research
+- Solved complex facility location problems with 8 customers and multiple candidate locations
+- Implemented binary linear programming for strategic decisions
+- Achieved optimal solutions with significant cost savings
+
+### 4. Data Science Workflow
+- End-to-end data processing from raw Excel files to actionable insights
+- Proper train-test splitting for model validation
+- Comprehensive visualization for stakeholder communication
+
+### 5. Cross-Platform Programming
+- R for statistical analysis and modeling
+- Python for optimization and geospatial analysis
+- Seamless integration of multiple tools and libraries
+
+---
+
+## Business Impact & Applications
+
+### Supply Chain Optimization
+- Facility location decisions reducing transportation costs
+- Inventory optimization through quantile regression
+- Demand forecasting for better resource allocation
+
+### Risk Management
+- Quantile-based decision making for uncertain demand
+- Out-of-sample validation for model reliability
+- Cost-benefit analysis for business decisions
+
+### Strategic Planning
+- Data-driven facility location decisions
+- Economic trend analysis for long-term planning
+- Performance optimization through statistical modeling
+
+---
+
+## Technical Proficiency Summary
+
+| Skill Category | Proficiency Level | Key Tools | Applications |
+|----------------|-------------------|-----------|--------------|
+| Statistical Analysis | Advanced | R, ggplot2, quantreg | Regression, forecasting, validation |
+| Optimization | Advanced | Python, PuLP | Facility location, resource allocation |
+| Data Manipulation | Advanced | R (dplyr), Python (pandas) | Data preprocessing, transformation |
+| Visualization | Intermediate | ggplot2, matplotlib | Data exploration, results presentation |
+| Geospatial Analysis | Intermediate | geopy, coordinate systems | Distance calculations, location optimization |
+| Business Intelligence | Advanced | Statistical modeling, optimization | Strategic decision support |
+
+---
+
+## Conclusion
+
+This portfolio demonstrates comprehensive expertise in operations analytics, spanning statistical modeling, optimization, and business intelligence. The work showcases the ability to:
+
+1. **Analyze complex business problems** using appropriate statistical and optimization techniques
+2. **Implement robust solutions** with proper validation and performance metrics
+3. **Communicate results effectively** through visualization and business interpretation
+4. **Apply cross-functional skills** combining statistics, programming, and business acumen
+
+The projects represent real-world applications in supply chain management, demand forecasting, and strategic planning, demonstrating readiness for advanced analytical roles in operations, supply chain, and business intelligence.
+
+---
+
+*Portfolio compiled from OPRE 6304 Operations Analytics coursework*
+*University of Texas at Dallas*
